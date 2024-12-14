@@ -1,0 +1,113 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*lato */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.title{
+    font-family: poppins;
+    text-align: center;
+    font-size: 50px;
+    color:chocolate;
+    background-color: gray;
+    border-radius: 50px;
+    transition: 0.3ms ease-in;
+    border-radius: 15px;
+    margin: 100px;
+    padding: auto;
+}
+
+body{
+    background-color:rgb(61, 61, 61) ;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+
+nav .navhome, .navabout, .known, .what{
+    color:white;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    font-family: poppins;
+    font-size: 13px;
+    align-items: center;
+    margin: 10px;
+    text-decoration: none;
+
+}
+
+.intro{
+    font-family:lato;
+    font-size: 23px;
+    text-align: center;
+    
+}
+
+.andrew{
+    color:rgb(0, 0, 0);
+    font-size:25px;
+}
+
+.andrew:hover {
+    transition: all 0.3s ease-out;
+    /* add your hover styles here */
+    color:orange;
+    font-size: 30px;
+    
+}
+
+.about{
+    color: white;
+    font-family: poppins;
+    text-align: center;
+    font-size: 24px;
+    text-indent: 12px;
+}
+
+.abtpara{
+    color:white;
+    font-family: lato;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+
+.used{
+    color: white;
+    font-family: poppins;
+    text-align: center;
+
+}
+
+.usedpara{
+    color:white;
+    font-weight: bold;
+    font-family: lato;
+    text-align: center;
+}
+
+.html{
+    color:white;
+    background: transparent;
+
+    
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.htmlicon, .cssicon{
+    background-color: white;
+}
+
+.abtlink{
+    color:white;
+    text-decoration: none;
+}
